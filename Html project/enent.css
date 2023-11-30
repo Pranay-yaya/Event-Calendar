@@ -1,0 +1,106 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+nav ul {
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width: 100%;
+    align-items: center;
+}
+h1{
+    font-size: 60px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+.header1{
+    justify-content: center;
+}
+li {
+    margin: 0 9px;    
+}
+.head{
+    box-shadow: 0 10px 10px rgb(0, 0, 0);
+    text-align: center;
+    padding: 40px 0 50px 0;
+    background-image: url(header.jpg);
+    margin-bottom: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+
+}
+.title{
+    text-align: center;
+}
+.gride{
+    margin-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    
+}
+img{
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+}
+.items{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgb(144, 144, 144);
+    margin: 10px;
+    border-radius: 5px;
+    height: fit-content;
+}
+.items:hover{
+    transform: scale(1.05);
+}
+.explor{
+    padding-left: 10px;
+}
+.questions{
+    text-align: center;
+    justify-content: center;
+}
+.question{
+    margin: 0 20%;
+    border-top: solid 1px black;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.still{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    justify-content: center;
+}
+button{
+    margin: 0 10px;
+    padding: 5px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    border-radius: 5px;
+}
+.line{
+    border-top: solid 1px black;
+    margin-top: 20px;
+    padding-top: 0;
+    text-align: center;
+    background-color: rgb(96, 95, 95);
+    color: white;
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+
